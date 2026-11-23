@@ -1,0 +1,17 @@
+{
+  "name": "Argon Pocket",
+  "short_name": "Argon",
+  "description": "Your AI workspace for chat, research, and live app building.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101611",
+  "theme_color": "#101611",
+  "icons": [
+    {
+      "src": "/argon-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

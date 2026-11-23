@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+server/.data/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/google-services.json
+**/GoogleService-Info.plist
+**/service-account*.json
+
+# JavaScript / Android build output
+node_modules/
+app/node_modules/
+app/dist/
+app/.vite/
+*.tsbuildinfo
+app/android/.gradle/
+app/android/local.properties
+app/android/**/build/
+app/android/.idea/
+app/android/capacitor-cordova-android-plugins/
+
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
+*.log
